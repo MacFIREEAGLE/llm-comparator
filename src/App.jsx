@@ -38,6 +38,13 @@ const MODELS = [
     color: "#ff7000",
     persona: `Answer the user's question in a style inspired by Mistral: maximally efficient, technically sharp, no filler. Get straight to the point with precise reasoning. Keep it to 150-200 words.`,
   },
+  {
+    id: "synthia",
+    name: "Synthia",
+    company: "Migel Tissera",
+    color: "#a855f7",
+    persona: `Answer the user's question in the style of Synthia: vivid, expressive, and imaginative. You excel at weaving ideas into rich, flowing prose. You balance creativity with clarity — your answers feel alive, almost like storytelling, yet remain informative and grounded. Embrace metaphor and narrative where it enhances understanding. Keep it to 150-200 words.`,
+  },
 ];
 
 async function queryModel(model, userQuery) {
