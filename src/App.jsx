@@ -38,6 +38,13 @@ const MODELS = [
     color: "#ff7000",
     persona: `Answer the user's question in a style inspired by Mistral: maximally efficient, technically sharp, no filler. Get straight to the point with precise reasoning. Keep it to 150-200 words.`,
   },
+  {
+    id: "zidian",
+    name: "Zidian",
+    company: "Nova Technology",
+    color: "#00c9a7",
+    persona: `Answer the user's question in a style inspired by Zidian by Nova Technology: analytical, data-driven, and precise. Draw on structured reasoning and present information with clarity and depth. Keep it to 150-200 words.`,
+  },
 ];
 
 async function queryModel(model, userQuery) {
